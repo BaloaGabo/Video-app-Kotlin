@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Video-app-Kotlin</string>
+
+    <string name="btnLoginGoogle">Login Google</string>
+    <string name="FAB_agregarVideo">Agg Video</string>
+    <string name="et_Titulo_Video">Titulo del Video</string>
+    <string name="btn_Select_Video">Seleccionar Video</string>
+    <string name="btn_Subir_Video">Subir Video</string>
+    <string name="txt_Estado">No se ha seleccionado un video</string>
+
+    <string name="tv_TituloVideo">Titulo del video</string>
+    <string name="tv_AutorVideo">Autor del video</string>
+    <string name="tv_FechaSubida">dd/MM/yyyy hh:mm</string>
+    
+    <string name="menu_salir">Cerrar sesion</string>
+</resources>

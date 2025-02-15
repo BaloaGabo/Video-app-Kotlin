@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AgregarVideoActivity">
+
+<!--Titulo del Video-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TILTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_Titulo_Video"
+            android:autofillHints="Titulo Del Video"
+            android:hint="@string/et_Titulo_Video"
+            android:background="@color/white"
+            android:inputType="text|textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Previsualizar video-->
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_below="@id/TILTitulo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <!--Estado-->
+    <TextView
+        android:id="@+id/txt_Estado"
+        android:layout_below="@id/videoView"
+        android:text="@string/txt_Estado"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--Seleccionar un video-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_Select_Video"
+        android:text="@string/btn_Select_Video"
+        app:cornerRadius="8dp"
+        android:layout_below="@id/txt_Estado"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--Subir un Video-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_Subir_Video"
+        android:text="@string/btn_Subir_Video"
+        android:layout_below="@id/btn_Select_Video"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        app:cornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

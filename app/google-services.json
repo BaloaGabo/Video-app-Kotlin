@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464119467102",
+    "firebase_url": "https://video-app-kotlin-39901-default-rtdb.firebaseio.com",
+    "project_id": "video-app-kotlin-39901",
+    "storage_bucket": "video-app-kotlin-39901.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464119467102:android:1bdae2947ca75d293cf8cf",
+        "android_client_info": {
+          "package_name": "com.example.video_app_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464119467102-hafjf7js6ub8v20pgpkhe62brv9io9k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.video_app_kotlin",
+            "certificate_hash": "22d8c4c0e9323070babadc75ead6e1ddd378df4e"
+          }
+        },
+        {
+          "client_id": "464119467102-isqcg3h9bia0n497vg59tl4elpthe534.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg4XMP8GBoeOqaHsYPpvCje60-ZTNSCUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464119467102-isqcg3h9bia0n497vg59tl4elpthe534.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
